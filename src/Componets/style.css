@@ -1,0 +1,119 @@
+
+.Nav{
+    background-color: rgba(17, 2, 2, 0.377);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.search button{
+    background-color: rgba(255, 0, 0, 0.66);
+    height: 40px;
+    width: 80px;
+    border-bottom-right-radius: 20px;
+    font-size: 12px;
+    
+}
+
+.search button:hover{
+    background-color: rgb(92, 0, 0);
+}
+
+.search input{
+    height: 40px;
+    width: 60%;
+    border-top-left-radius: 20px;
+    background-color: rgba(79, 80, 78, 0.322);
+    border: 1px solid rgb(41, 154, 0);
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+
+.form-sec input{
+    background-color: rgba(255, 255, 255, 0.744);
+    font-size: 14px;
+}
+
+tr:hover{
+    background-color: rgba(162, 162, 162, 0.515);
+    transition: .5s;
+}
+
+.authority-card:hover{
+    transition: .5s;
+    border: 4px solid rgb(2, 0, 110);
+}
+
+.user-profile{
+    background: url(https://thumb.photo-ac.com/6b/6bc624d5eafab69332344e9266b7c66e_t.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.hero{
+    background: url(https://clipart-library.com/images/LcdjMKEgi.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.bg-overview{
+    background: url(https://img.freepik.com/premium-vector/abstract-blue-black-dynamic-geometric-shapes-border-white-background-vector-abstract-graphic-design-banner-pattern-presentation-background-web-template_181182-34872.jpg?w=900) no-repeat center;
+    background-size: cover;
+}
+
+.sign-page{
+    background: url(https://e0.pxfuel.com/wallpapers/7/783/desktop-wallpaper-login.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.save-card{
+    background: url(https://wallpaperset.com/w/full/6/5/d/55923.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.suspension{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20210429/pngtree-red-white-business-background-low-poly-simple-image_663343.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.update-val{
+    background: url(https://i.pinimg.com/originals/f5/27/0a/f5270acbc4b98112fcd520d2eea023de.gif) no-repeat center;
+    height: 250px;
+}
+
+.update-reject{
+    background: url(https://i.pinimg.com/originals/71/ef/9c/71ef9c9745eed7af963974c8ac26aaff.gif) no-repeat center;
+    height: 240px;
+}
+
+.update-sucess{
+    background: url(https://i.pinimg.com/originals/9c/c6/3f/9cc63f72ac8f5d18fa69b04dcc16eec2.gif) no-repeat center;
+    height: 250px;
+}
+
+.auth-update-val{
+    background: url(https://i.pinimg.com/originals/0c/84/b5/0c84b567c66555ff369efbe47e01259d.gif) no-repeat center;
+    height: 280px;
+    padding-top: 60px;
+}
+
+.auth-update-reject{
+    background: url(https://i.pinimg.com/originals/71/ef/9c/71ef9c9745eed7af963974c8ac26aaff.gif) no-repeat center;
+    height: 280px;
+}
+
+.auth-update-sucess{
+    background: url(https://i.pinimg.com/originals/9c/c6/3f/9cc63f72ac8f5d18fa69b04dcc16eec2.gif) no-repeat center;
+    height: 280px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+.scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
